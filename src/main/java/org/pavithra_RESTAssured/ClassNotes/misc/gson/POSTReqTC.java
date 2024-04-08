@@ -1,6 +1,7 @@
 package org.pavithra_RESTAssured.ClassNotes.misc.gson;
 import com.github.javafaker.Faker;
 import com.google.gson.Gson;
+import org.assertj.core.api.Assert;
 import org.pavithra_RESTAssured.ClassNotes.misc.gson.example.BookingRespons;
 import org.pavithra_RESTAssured.ClassNotes.misc.gson.example.Employee;
 import io.restassured.RestAssured;
@@ -8,7 +9,6 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import static org.assertj.core.api.Assertions.*;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -99,7 +99,6 @@ public class POSTReqTC {
 
 
     }
-
 
 
 }

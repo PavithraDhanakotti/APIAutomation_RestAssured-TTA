@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/anand/Pavithra's Testing Folder/IdeaProjects/APIAutomation_RestAssured">
+        <classes>
+            <class name="org.pavithra_RESTAssured.tests_crud.POST.NonBDDStylePOST">
+            </class>
+            <class name="org.pavithra_RESTAssured.tests_crud.PATCH.NonBDDPATCH">
+            </class>
+            <class name="org.pavithra_RESTAssured.tests_crud.GET.NonBDDStyleGET">
+            </class>
+            <class name="org.pavithra_RESTAssured.tests_crud.PUT.NonBDDPUT">
+            </class>
+        </classes>
+    </test>
+</suite>

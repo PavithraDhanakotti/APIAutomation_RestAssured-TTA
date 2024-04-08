@@ -9,7 +9,7 @@ public class BookingRespons {
     @Expose
     private Booking booking;
 
-    public Integer getBookingid() {
+    public String getBookingid() {
         return bookingid;
     }
 
