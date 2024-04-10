@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APIAutomation_RestAssured"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.052">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testMethods2"
+                time="0.002"
+                classname="org.pavithra_RESTAssured.ClassNotes.TestNG.paralle.MainClass">
+            </testcase>
+            <testcase
+                name="testMethodsO5"
+                time="0.002"
+                classname="org.pavithra_RESTAssured.ClassNotes.TestNG.paralle.MainClass">
+            </testcase>
+            <testcase
+                name="testMethods4"
+                time="0.003"
+                classname="org.pavithra_RESTAssured.ClassNotes.TestNG.paralle.MainClass">
+            </testcase>
+            <testcase
+                name="testMethods1"
+                time="0.011"
+                classname="org.pavithra_RESTAssured.ClassNotes.TestNG.paralle.MainClass">
+            </testcase>
+            <testcase
+                name="testMethods6"
+                time="0.005"
+                classname="org.pavithra_RESTAssured.ClassNotes.TestNG.paralle.MainClass">
+            </testcase>
+            <testcase
+                name="testMethods3"
+                time="0.029"
+                classname="org.pavithra_RESTAssured.ClassNotes.TestNG.paralle.MainClass">
+            </testcase>
+</testsuite>
