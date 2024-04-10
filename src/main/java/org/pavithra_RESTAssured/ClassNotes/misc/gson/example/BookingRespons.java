@@ -2,6 +2,7 @@ package org.pavithra_RESTAssured.ClassNotes.misc.gson.example;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 public class BookingRespons {
+
     @SerializedName("bookingid")
     @Expose
     private Integer bookingid;
@@ -9,7 +10,7 @@ public class BookingRespons {
     @Expose
     private Booking booking;
 
-    public String getBookingid() {
+    public Integer getBookingid() {
         return bookingid;
     }
 
@@ -24,5 +25,4 @@ public class BookingRespons {
     public void setBooking(Booking booking) {
         this.booking = booking;
     }
-
 }
