@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 import static org.assertj.core.api.Assertions.*;
 
 public class Lab0005_PUTRequest {
-    /*
+    /* "token": "2b2fdb122570433"
     RESTful Booker - PUT Request in Non BDD Style
     -> Before (Given) - Payload, Get Booking ID, path, url ----- AKa Request Specification
     -> During (When) - Change ----- AKa Response
@@ -54,7 +54,7 @@ public class Lab0005_PUTRequest {
     public void NonBDDPUTreq() {
         String jsonstring = "{\n" +
                 "    \"firstname\": \"Pavithra\",\n" +
-                "    \"lastname\": \"Dhanakotti\",\n" +
+                "    \"lastname\": \"Sri\",\n" +
                 "    \"totalprice\": 11,\n" +
                 "    \"depositpaid\": true,\n" +
                 "    \"bookingdates\": {\n" +
@@ -66,16 +66,16 @@ public class Lab0005_PUTRequest {
         requestSpecification.contentType(ContentType.JSON);
         requestSpecification.cookie("token",token);
         requestSpecification.baseUri("https://restful-booker.herokuapp.com/");
-        requestSpecification.basePath("booking/4549");
+        requestSpecification.basePath("booking/4110");
         requestSpecification.body(jsonstring);
 
         Response response = requestSpecification.put();
         System.out.println(response.asString());
 
         validatableResponse = response.then().log().all();
-        validatableResponse.statusCode(200);
+        validatableResponse.statusCode(405);
         validatableResponse.body("firstname", Matchers.equalTo("Pavithra"));
-        validatableResponse.body("lastname",Matchers.equalTo("Dhanakotti"));
+        validatableResponse.body("lastname",Matchers.equalTo("Sri"));
     }
 
 }
