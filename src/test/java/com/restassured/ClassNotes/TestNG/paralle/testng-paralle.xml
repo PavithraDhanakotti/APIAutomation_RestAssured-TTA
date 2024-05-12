@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:\Users\mdlee\Pavithra\Old Ideal Projects\APIAutomation_RestAssured\src\main\java\org\pavithra_RESTAssured\ClassNotes\TestNG\paralle\MainClasss.java">
+        <classes>
+            <class name="com.restassured.ClassNotes.TestNG.paralle.MainClasss">
+                <methods>
+                    <include name="testMethods1"/>
+                    <include name="testMethods2"/>
+                    <include name="testMethods3"/>
+                    <include name="testMethods4"/>
+                    <include name="testMethodsO5"/>
+                    <include name="testMethods6"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

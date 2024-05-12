@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:\Users\mdlee\Pavithra\Old Ideal Projects\APIAutomation_RestAssured">
+        <classes>
+            <class name="com.restassured.ClassNotes.tests_CURD.POST.NonBDDStylePOST">
+            </class>
+            <class name="com.restassured.ClassNotes.tests_CURD.PATCH.NonBDDPATCH">
+            </class>
+            <class name="com.restassured.ClassNotes.tests_CURD.GET.NonBDDStyleGET">
+            </class>
+            <class name="com.restassured.ClassNotes.tests_CURD.PUT.NonBDDPUT">
+            </class>
+        </classes>
+    </test>
+</suite>
