@@ -11,7 +11,7 @@ public class DeSer {
                 + "  \"married\" : false\r\n" + "}";
 
         Gson gson = new Gson();
-        org.pavithra_RESTAssured.ClassNotes.misc.gson.example.Employee employeeObject = gson.fromJson(jsonString, org.pavithra_RESTAssured.ClassNotes.misc.gson.example.Employee.class);
+        com.restassured.ClassNotes.misc.gson.example.Employee employeeObject = gson.fromJson(jsonString,com.restassured.ClassNotes.misc.gson.example.Employee.class);
 
         String firstName = employeeObject.getFirstName();
         String lastName = employeeObject.getLastName();
