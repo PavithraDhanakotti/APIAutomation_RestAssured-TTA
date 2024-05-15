@@ -16,17 +16,17 @@ public class Demo {
     // 1 - diffcult
     // 2. easy!
 
-    //{
-    //            "firstname" : "Jim",
-    //                "lastname" : "Brown",
-    //                "totalprice" : 111,
-    //                "depositpaid" : true,
-    //                "bookingdates" : {
-    //            "checkin" : "2018-01-01",
-    //                    "checkout" : "2019-01-01"
-    //        },
-    //            "additionalneeds" : "Breakfast"
-    //        }
+//    {
+//                "firstname" : "Jim",
+//                    "lastname" : "Brown",
+//                    "totalprice" : 111,
+//                    "depositpaid" : true,
+//                    "bookingdates" : {
+//                "checkin" : "2018-01-01",
+//                        "checkout" : "2019-01-01"
+//            },
+//                "additionalneeds" : "Breakfast"
+//            }
 
     RequestSpecification requestSpecification;
     ValidatableResponse validatableResponse;
