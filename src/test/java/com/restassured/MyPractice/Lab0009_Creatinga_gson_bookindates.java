@@ -3,7 +3,7 @@ package com.restassured.MyPractice;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-     public class Bookingdates {
+     public class Lab0009_Creatinga_gson_bookindates {
 
         @SerializedName("checkin")
         @Expose

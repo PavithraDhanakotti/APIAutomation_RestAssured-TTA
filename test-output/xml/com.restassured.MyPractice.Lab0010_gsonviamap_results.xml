@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APIAutomation_RestAssured-TTA"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.265">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test01"
+                time="4.265"
+                classname="com.restassured.MyPractice.Lab0010_gsonviamap">
+            </testcase>
+</testsuite>

@@ -3,7 +3,7 @@ package com.restassured.MyPractice;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Lab0008CreatingaGsonBooking {
+public class Lab0008_Creatinga_Gson_booking {
 
         @SerializedName("firstname")
         @Expose
@@ -19,7 +19,7 @@ public class Lab0008CreatingaGsonBooking {
         private Boolean depositpaid;
         @SerializedName("bookingdates")
         @Expose
-        private Bookingdates bookingdates;
+        private Lab0009_Creatinga_gson_bookindates bookingdates;
         @SerializedName("additionalneeds")
         @Expose
         private String additionalneeds;
@@ -56,11 +56,11 @@ public class Lab0008CreatingaGsonBooking {
             this.depositpaid = depositpaid;
         }
 
-        public Bookingdates getBookingdates() {
+        public Lab0009_Creatinga_gson_bookindates getBookingdates() {
             return bookingdates;
         }
 
-        public void setBookingdates(Bookingdates bookingdates) {
+        public void setBookingdates(Lab0009_Creatinga_gson_bookindates bookingdates) {
             this.bookingdates = bookingdates;
         }
 
